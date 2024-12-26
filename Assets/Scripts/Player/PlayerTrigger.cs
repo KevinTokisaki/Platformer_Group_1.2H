@@ -10,7 +10,7 @@ public class PlayerTrigger : MonoBehaviour
         if (other.tag == "Coin")
         {
             Destroy(other.gameObject);
-            AudioManager.instance.PlayAudio("���");
+            AudioManager.instance.PlayAudio("coin");
             GameCtrl.instance.SetCoin();
         }
         else if (other.tag == "Sea")
