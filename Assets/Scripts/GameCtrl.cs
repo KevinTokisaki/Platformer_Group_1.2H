@@ -41,7 +41,7 @@ public class GameCtrl : MonoBehaviour
         if (Time.time - lastTime > 1)
         {
             lastTime = Time.time;
-            AudioManager.instance.PlayAudio("����");
+            AudioManager.instance.PlayAudio("attack");
 
             if (HP > 0)
             {
