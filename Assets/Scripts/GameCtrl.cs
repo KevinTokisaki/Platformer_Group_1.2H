@@ -14,6 +14,7 @@ public class GameCtrl : MonoBehaviour
     public int HP;
     public Image imaHP;
     public int numCoin;
+    [SerializeField] private int maxCoint;
     public Text txtCoin;
     private void Awake()
     {
@@ -59,7 +60,7 @@ public class GameCtrl : MonoBehaviour
     {
         numCoin++;
         txtCoin.text = "Get Coin：" + numCoin.ToString();
-        if (numCoin == 4)
+        if (numCoin == maxCoint)
         {
             SetWin();
         }

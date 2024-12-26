@@ -15,7 +15,6 @@ public class PlayerTrigger : MonoBehaviour
         }
         else if (other.tag == "Sea")
         {
-            Destroy(gameObject);
             GameCtrl.instance.SetFail();
         }
         else if (other.tag == "Trap")
