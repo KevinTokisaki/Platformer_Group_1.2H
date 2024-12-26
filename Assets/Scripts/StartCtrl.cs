@@ -11,7 +11,7 @@ public class StartCtrl : MonoBehaviour
     {
         btnStart.onClick.AddListener(()=> 
         {
-            SceneManager.LoadScene("Game");
+            SceneManager.LoadScene("Level 1(Woo)");
         });
     }
 

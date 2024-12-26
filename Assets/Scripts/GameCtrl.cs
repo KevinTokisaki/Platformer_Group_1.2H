@@ -13,6 +13,7 @@ public class GameCtrl : MonoBehaviour
 
     public int HP;
     public Image imaHP;
+    public int maxHP = 3;
     public int numCoin;
     [SerializeField] private int maxCoint;
     public Text txtCoin;
@@ -41,7 +42,7 @@ public class GameCtrl : MonoBehaviour
         if (Time.time - lastTime > 1)
         {
             lastTime = Time.time;
-            AudioManager.instance.PlayAudio("attack");
+            AudioManager.instance.PlayAudio("hurt");
 
             if (HP > 0)
             {
@@ -54,6 +55,13 @@ public class GameCtrl : MonoBehaviour
             }
         }
 
+    }
+
+    public void Heal(int healAmount)
+    {
+ 
+        HP = Mathf.Min(HP + healAmount, maxHP);
+        imaHP.fillAmount = (float)HP / maxHP;
     }
 
     public void SetCoin()

@@ -4,13 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Tanhuang
   - Coin
   - CinemachineTarget
   - Enemy
-  - Spring
   - Trap
   - Sea
+  - Heart
   layers:
   - Default
   - TransparentFX

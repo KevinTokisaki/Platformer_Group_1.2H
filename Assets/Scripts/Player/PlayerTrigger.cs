@@ -21,8 +21,10 @@ public class PlayerTrigger : MonoBehaviour
         {
             GameCtrl.instance.SetHP();
         }
-        else if (other.tag == "Spring")
+        else if (other.tag == "Heart")
         {
+            GameCtrl.instance.Heal(1); 
+            Destroy(other.gameObject);
         }
     }
 

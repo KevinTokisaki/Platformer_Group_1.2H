@@ -115,7 +115,7 @@ public class Enemy : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            AudioManager.instance.PlayAudio("hurt");
+            AudioManager.instance.PlayAudio("attack");
             GameCtrl.instance.SetHP();
         }
     }
