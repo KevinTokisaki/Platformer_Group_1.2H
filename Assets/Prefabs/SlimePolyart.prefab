@@ -491,7 +491,7 @@ MonoBehaviour:
   damage: 50
   m_timer: 2
   distance: 0
-  HP: 3
+  HP: 2
 --- !u!135 &7638164255892625686
 SphereCollider:
   m_ObjectHideFlags: 0

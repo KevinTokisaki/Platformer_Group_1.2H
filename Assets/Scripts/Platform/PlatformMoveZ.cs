@@ -4,27 +4,27 @@ using UnityEngine;
 
 public class PlatformMoveZ : MonoBehaviour
 {
-    public float offZ; // 原来是 offX，现在改为 offZ
+    public float offZ; 
     public float moveSpeed = 5;
     public float min, max;
     public float moveDir = 1;
-    public bool isMoveForward, isMoveBackward; // 改为控制前后移动的变量
+    public bool isMoveForward, isMoveBackward; // Variables to control forward and backward movement
 
     public bool auto;
 
     void Start()
     {
-        offZ = transform.localPosition.z; // 初始化为 Z 轴的当前位置
-        min = offZ - moveDir; // 计算最小位置
-        max = offZ + moveDir; // 计算最大位置
-        isMoveForward = true; // 初始化为向前移动
+        offZ = transform.localPosition.z; // Initialize the current Z position
+        min = offZ - moveDir; 
+        max = offZ + moveDir; 
+        isMoveForward = true; // Initialize to move forward
     }
 
     void Update()
     {
         if (auto)
         {
-            if (isMoveForward) // 向前移动逻辑
+            if (isMoveForward) // Forward movement logic
             {
                 if (offZ < max)
                 {
@@ -38,7 +38,7 @@ public class PlatformMoveZ : MonoBehaviour
                 }
             }
 
-            if (isMoveBackward) // 向后移动逻辑
+            if (isMoveBackward) // Backward movement logic
             {
                 if (offZ > min)
                 {
@@ -52,7 +52,7 @@ public class PlatformMoveZ : MonoBehaviour
                 }
             }
 
-            // 将 Z 轴的位置更新
+            // Update the Z position
             transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, offZ);
         }
     }
