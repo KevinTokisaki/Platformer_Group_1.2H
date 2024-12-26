@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5816805682905779456
+--- !u!1 &726565114948578242
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,48 +8,47 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5413891863461374348}
-  - component: {fileID: 8939367784556657121}
-  - component: {fileID: 8163933703758153762}
-  - component: {fileID: 4707975989971256189}
-  - component: {fileID: 2530450745718983180}
+  - component: {fileID: 3813101003810747493}
+  - component: {fileID: 2627838714320539746}
+  - component: {fileID: 4074866042677542938}
+  - component: {fileID: 5821486949145111917}
   m_Layer: 0
-  m_Name: Moving_Platform1
+  m_Name: Ground_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5413891863461374348
+--- !u!4 &3813101003810747493
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5816805682905779456}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.55, y: -1.71, z: -26.26}
+  m_GameObject: {fileID: 726565114948578242}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.8528228, y: -1.3908443, z: 2.014624}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: -2
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &8939367784556657121
+--- !u!33 &2627838714320539746
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5816805682905779456}
-  m_Mesh: {fileID: 8132423522751337658, guid: 32812f864ffc68f45aa97b19014b7867, type: 3}
---- !u!23 &8163933703758153762
+  m_GameObject: {fileID: 726565114948578242}
+  m_Mesh: {fileID: -2451462281645638667, guid: 32812f864ffc68f45aa97b19014b7867, type: 3}
+--- !u!23 &4074866042677542938
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5816805682905779456}
+  m_GameObject: {fileID: 726565114948578242}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -63,8 +62,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0e4d0ccaf011a34428a6cd5ae795db31, type: 2}
-  - {fileID: 2100000, guid: c029934c5c76c6647abb4203dad74b2d, type: 2}
+  - {fileID: 2100000, guid: c5bfa424a8742464bba1801795dc1e21, type: 2}
+  - {fileID: 2100000, guid: 07d5504604394a04a8c49e01ccf84c58, type: 2}
+  - {fileID: 2100000, guid: f5eaded9aecca234d99b3cf8b7313ae7, type: 2}
+  - {fileID: 2100000, guid: bdc3bce6fadbbad46a5e1ace66b03a0f, type: 2}
+  - {fileID: 2100000, guid: 5e0f66e51333abb408613201c330a535, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -86,13 +88,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4707975989971256189
+--- !u!65 &5821486949145111917
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5816805682905779456}
+  m_GameObject: {fileID: 726565114948578242}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -105,25 +107,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2, y: 0.22647041, z: 2}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2530450745718983180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5816805682905779456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e542efceab7e2b48ab4d4460aae91f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  offX: 0
-  moveSpeed: 2
-  min: 23.55
-  max: 25.55
-  moveDir: 1
-  isMoveRight: 0
-  isMoveLeft: 0
-  auto: 1
+  m_Size: {x: 5.3999996, y: 2.511542, z: 5.3999996}
+  m_Center: {x: 2.5, y: 1.255771, z: -2.5}
