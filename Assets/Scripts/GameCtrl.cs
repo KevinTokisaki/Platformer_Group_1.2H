@@ -10,7 +10,6 @@ public class GameCtrl : MonoBehaviour
     public Text txtEnd;
     public Button btnReplay, btnExit;
 
-    public StartPoint startPoint;
 
     public int HP;
     public Image imaHP;
@@ -27,7 +26,6 @@ public class GameCtrl : MonoBehaviour
         btnReplay.onClick.AddListener(() =>
         {
             Time.timeScale = 1;
-            startPoint.RespawnPlayer();
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         });
         btnExit.onClick.AddListener(() =>
@@ -74,14 +72,14 @@ public class GameCtrl : MonoBehaviour
         objEnd.SetActive(true);
         txtEnd.text = "You Lose";
         Time.timeScale = 0;
-        startPoint.RespawnPlayer();
+
     }
     private void SetWin()
     {
         objEnd.SetActive(true);
         txtEnd.text = "Victore!!!";
         Time.timeScale = 0;
-        startPoint.RespawnPlayer();
+
     }
 
 }
