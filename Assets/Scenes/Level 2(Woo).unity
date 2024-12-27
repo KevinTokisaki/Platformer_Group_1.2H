@@ -26521,7 +26521,7 @@ MonoBehaviour:
   moveSpeed: 2
   min: 23.55
   max: 25.55
-  moveDir: 1.2
+  moveDir: 1.5
   isMoveRight: 0
   isMoveLeft: 0
   auto: 1

@@ -164,7 +164,7 @@ namespace StarterAssets
             if (Input.GetMouseButtonDown(0))
             {
                 _animator.SetTrigger(_animIDAttack);
-                AudioManager.instance.PlayAudio("攻击");
+                AudioManager.instance.PlayAudio("attack");
             }
         }
 
