@@ -24,6 +24,8 @@ public class GameCtrl : MonoBehaviour
 
     void Start()
     {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
 
         btnReplay.onClick.AddListener(() =>
         {
@@ -81,6 +83,8 @@ public class GameCtrl : MonoBehaviour
         objEnd.SetActive(true);
         txtEnd.text = "You Lose";
         Time.timeScale = 0;
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
 
     }
     private void SetWin()
@@ -88,6 +92,8 @@ public class GameCtrl : MonoBehaviour
         objEnd.SetActive(true);
         txtEnd.text = "Victore!!!";
         Time.timeScale = 0;
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
 
     }
 

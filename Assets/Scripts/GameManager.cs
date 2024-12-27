@@ -36,7 +36,10 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
             objSet.SetActive(true);
+            
         }
     }
 
