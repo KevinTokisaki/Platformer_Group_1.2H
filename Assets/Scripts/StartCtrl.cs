@@ -13,10 +13,10 @@ public class StartCtrl : MonoBehaviour
 
     void Start()
     {
-        btnStart.onClick.AddListener(()=> 
-        {
-            SceneManager.LoadScene("Level 1(Woo)");
-        });
+        //btnStart.onClick.AddListener(()=> 
+        //{
+        //    SceneManager.LoadScene("Level 1(Woo)");
+        //});
 
     }
 }
