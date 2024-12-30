@@ -26,9 +26,10 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             objSet.SetActive(false);
         });
-        btnExit.onClick.AddListener(()=> 
+        btnExit.onClick.AddListener(() =>
         {
-            Application.Quit();
+            SceneManager.LoadSceneAsync(0);
+            objSet?.SetActive(false);
         });
     }
 

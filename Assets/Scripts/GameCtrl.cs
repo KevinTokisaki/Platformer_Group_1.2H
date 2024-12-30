@@ -34,7 +34,16 @@ public class GameCtrl : MonoBehaviour
         });
         btnExit.onClick.AddListener(() =>
         {
-            Application.Quit();
+            //Time.timeScale = 1; // 确保时间缩放恢复正常
+            //Cursor.visible = false; // 隐藏鼠标
+            //Cursor.lockState = CursorLockMode.Locked; // 锁定鼠标
+            SceneManager.LoadSceneAsync(0).completed += (op) =>
+            {
+                // 场景加载完成后的回调
+                //Time.timeScale = 1;
+                //Cursor.visible = false;
+                //Cursor.lockState = CursorLockMode.Locked;
+            };
         });
     }
 
