@@ -9,10 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Start.unity
     guid: d5ef4083f38823045ad02bb469dec9ed
   - enabled: 1
-    path: Assets/Scenes/Level 1(Woo).unity
+    path: Assets/Scenes/Level1_easy.unity
     guid: cbc08370ebfffd14e93d609a59772e3f
   - enabled: 1
-    path: Assets/Scenes/Level1_easy.unity
+    path: Assets/Scenes/Level1_normal.unity
     guid: d9a07a0febc24e64382a68d7326f361d
   - enabled: 1
     path: Assets/Scenes/Level 2(Woo).unity

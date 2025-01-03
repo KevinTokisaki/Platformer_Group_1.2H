@@ -99,7 +99,7 @@ public class GameCtrl : MonoBehaviour
     private void SetWin()
     {
         objEnd.SetActive(true);
-        txtEnd.text = "Victore!!!";
+        txtEnd.text = "Victory!!!";
         Time.timeScale = 0;
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;

@@ -15,7 +15,7 @@ public class StartCtrl : MonoBehaviour
     {
         //btnStart.onClick.AddListener(()=> 
         //{
-        //    SceneManager.LoadScene("Level 1(Woo)");
+        //    SceneManager.LoadScene("Level1_easy");
         //});
 
     }
