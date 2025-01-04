@@ -40,8 +40,13 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(3);
     }
+
     public void change4()
     {
         SceneManager.LoadSceneAsync(4);
+    }
+    public void change5()
+    {
+        SceneManager.LoadSceneAsync(5);
     }
 }
