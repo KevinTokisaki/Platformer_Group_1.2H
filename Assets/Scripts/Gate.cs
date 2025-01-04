@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Gate : MonoBehaviour
 {
-    public bool open = false;
+    private bool open = false;
     private Vector3 initialPosition;
-    public int moveDistance = 5;
+    private int moveDistance = 6;
 
     void Start(){
         initialPosition = transform.position;
