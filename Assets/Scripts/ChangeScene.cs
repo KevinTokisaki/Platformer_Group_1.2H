@@ -16,6 +16,7 @@ public class ChangeScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         Button1.onClick.AddListener(change1);
         Button2.onClick.AddListener(change2);
         Button3.onClick.AddListener(change3);
@@ -40,6 +41,7 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(3);
     }
+
     public void change4()
     {
         SceneManager.LoadSceneAsync(4);

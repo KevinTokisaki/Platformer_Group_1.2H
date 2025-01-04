@@ -12954,7 +12954,7 @@ MonoBehaviour:
   imaHP: {fileID: 1479360701}
   maxHP: 3
   numCoin: 0
-  maxCoint: 4
+  maxCoint: 2
   txtCoin: {fileID: 329834999}
 --- !u!4 &2002593471
 Transform:
