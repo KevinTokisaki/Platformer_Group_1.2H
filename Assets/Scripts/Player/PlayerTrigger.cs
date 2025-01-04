@@ -26,6 +26,11 @@ public class PlayerTrigger : MonoBehaviour
             GameCtrl.instance.Heal(1); 
             Destroy(other.gameObject);
         }
+        else if (other.tag == "Key")
+        {
+            GameCtrl.instance.SetKeys(1); 
+            Destroy(other.gameObject);
+        }
     }
 
 }

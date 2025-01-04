@@ -213,7 +213,7 @@ namespace StarterAssets
             }
             else
             {
-                Debug.LogError("Input reference is null!");
+                //Debug.LogError("Input reference is null!");
             }
 
             JumpAndGravity();

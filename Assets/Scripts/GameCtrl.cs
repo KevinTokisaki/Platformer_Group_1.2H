@@ -17,6 +17,10 @@ public class GameCtrl : MonoBehaviour
     public int numCoin;
     [SerializeField] private int maxCoint;
     public Text txtCoin;
+
+    public int numKeys;
+    public Text txtKeys;
+
     private void Awake()
     {
         instance = this;
@@ -104,6 +108,20 @@ public class GameCtrl : MonoBehaviour
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
 
+    }
+
+    public void SetKeys(int num)
+    {
+
+        if (numKeys < 1 && num < 0){
+            return;
+        }
+        numKeys = numKeys + num;
+        txtKeys.text = "Keys: " + numKeys.ToString();
+    }
+    public int GetKeys()
+    {
+        return numKeys;
     }
 
 }
