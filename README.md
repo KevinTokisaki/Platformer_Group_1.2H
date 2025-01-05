@@ -1,4 +1,4 @@
-# The Island Quest - README
+# The Island Quest - Platformer Game
 
 ## Game Overview
 *The Island Quest* is an adventure platformer where you play as a traveler exploring mysterious islands filled with danger, treasure, and challenges. Your mission is to collect coins, battle fierce enemies, and survive through treacherous obstacles while moving across platforms. As you progress through more the levels, you will face tougher enemies and environmental challenges.
