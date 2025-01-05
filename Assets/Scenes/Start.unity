@@ -803,7 +803,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &188774054
 RectTransform:
   m_ObjectHideFlags: 0
@@ -818,8 +818,8 @@ RectTransform:
   m_Children:
   - {fileID: 1564535029}
   - {fileID: 1221782278}
-  - {fileID: 1028781302}
   - {fileID: 2062991098}
+  - {fileID: 1028781302}
   - {fileID: 1184395505}
   m_Father: {fileID: 1453893621}
   m_RootOrder: -2
@@ -843,8 +843,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button1: {fileID: 1564535030}
   Button2: {fileID: 1221782279}
-  Button3: {fileID: 1028781303}
-  Button4: {fileID: 2062991099}
+  Button3: {fileID: 2062991099}
+  Button4: {fileID: 1028781303}
 --- !u!114 &188774056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1951,7 +1951,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Normal
+  m_text: Easy
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2abe8812d646eb54d9aa65c5cdea233f, type: 2}
   m_sharedMaterial: {fileID: -8404788614692435830, guid: 2abe8812d646eb54d9aa65c5cdea233f, type: 2}
@@ -3979,7 +3979,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Little Hard
+  m_text: Normal
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2abe8812d646eb54d9aa65c5cdea233f, type: 2}
   m_sharedMaterial: {fileID: -8404788614692435830, guid: 2abe8812d646eb54d9aa65c5cdea233f, type: 2}
@@ -4822,7 +4822,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Easy
+  m_text: Tutorial
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2abe8812d646eb54d9aa65c5cdea233f, type: 2}
   m_sharedMaterial: {fileID: -8404788614692435830, guid: 2abe8812d646eb54d9aa65c5cdea233f, type: 2}
