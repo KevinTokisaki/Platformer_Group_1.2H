@@ -46,7 +46,7 @@ public class TrapLeftRight : MonoBehaviour
                     isMin = false;
                 }
             }
-            transform.eulerAngles = new Vector3(rotate,0,0);
+            transform.eulerAngles = new Vector3(rotate,90,0);
         }
     }
 }
