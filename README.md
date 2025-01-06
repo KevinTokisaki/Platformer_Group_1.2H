@@ -48,7 +48,7 @@ To play *The Island Quest* in a web browser via WebGL, follow these steps:
 
 ## Installation (Standalone Version)
 To play *The Island Quest* locally:
-1. Download the game from [insert download link here].
+1. Download the game from [here](https://kevintokisaki.github.io/Publish_Game/)
 2. Extract the contents of the zip file to your desired location.
 3. Run the executable file (e.g., `IslandQuest.exe` for Windows or `IslandQuest.app` for macOS).
 4. Enjoy the game!
